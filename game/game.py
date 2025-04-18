@@ -40,3 +40,9 @@ class TicTacToe:
             "winner": self.winner,
             "draw": self.is_draw()
         }
+
+#POST http://127.0.0.1:5000/move
+#{
+#  "row": 2,
+#  "col": 0
+#}
