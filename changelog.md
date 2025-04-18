@@ -1,8 +1,13 @@
-# changelog
-##  [1.0.0] - 2025-04-18
+## [1.0.0] - 2025-04-18
+
 ### Added
-- Initial version of the Tic-Tac-Toe game
-- `app.py` for app logic
-- `game.py` for game mechanics
-- Virtual environment excluded via `.gitignore`
-- forced pushed because of which `venv` got added 
+
+- `10:15 AM` – Initial project setup and repository creation
+- `10:17 AM` – Added initial commit with Tic-Tac-Toe game files
+- `10:18 AM` – Pushed full game logic in two commits:
+  - `app.py` for app flow and API
+  - `game.py` for game logic
+- `10:20 AM` – Added changelog for initial version
+- `10:30 AM` – Added API route comment for clarity
+
+
