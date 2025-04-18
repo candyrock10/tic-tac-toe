@@ -24,41 +24,8 @@ A simple RESTful API for playing Tic-Tac-Toe, built using Flask. This API allows
 - Python 3.7+
 - Flask
 
-Install dependencies:
-```bash
-pip install -r requirements.txt
-
-##▶️ Running the App
-python app.py
-
-##📡 API Endpoints
-##🔁 Start a New Game
-POST /new
-
-Response
-
-{
-  "message": "New game started!",
-  "status": {
-    "board": [[" ", " ", " "], [" ", " ", " "], [" ", " ", " "]],
-    "current_symbol": "X",
-    "winner": null,
-    "draw": false
-}
-
-##🎮 Make a Move
-Request Body
-{
-  "row": 0,
-  "col": 2
-}
-
-Errors:
-
-400 - Missing or invalid move
-
-📊 Get Game Status
-GET /status
+# 📊 Get Game Status
+## GET /status
 
 Response
 {
@@ -68,10 +35,10 @@ Response
   "draw": false
 }
 
-📄 License
+# 📄 License
 MIT License
 
-🧑‍💻 Author
+# 🧑‍💻 Author
 @candyrock10
 
 
